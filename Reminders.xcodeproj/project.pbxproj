@@ -16,6 +16,7 @@
 		25005B70260131B6008DCE4D /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25005B6F260131B6008DCE4D /* Task.swift */; };
 		25005B7626013307008DCE4D /* TaskPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25005B7526013307008DCE4D /* TaskPriority.swift */; };
 		25005B7A26013510008DCE4D /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25005B7926013510008DCE4D /* TaskStore.swift */; };
+		25005B84260260C9008DCE4D /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25005B83260260C9008DCE4D /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		25005B6F260131B6008DCE4D /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		25005B7526013307008DCE4D /* TaskPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPriority.swift; sourceTree = "<group>"; };
 		25005B7926013510008DCE4D /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+		25005B83260260C9008DCE4D /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				25005B4B260130F9008DCE4D /* ContentView.swift */,
+				25005B83260260C9008DCE4D /* TaskCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				25005B5F260130FA008DCE4D /* ContentView.swift in Sources */,
 				25005B70260131B6008DCE4D /* Task.swift in Sources */,
 				25005B7626013307008DCE4D /* TaskPriority.swift in Sources */,
+				25005B84260260C9008DCE4D /* TaskCell.swift in Sources */,
 				25005B5D260130FA008DCE4D /* RemindersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
