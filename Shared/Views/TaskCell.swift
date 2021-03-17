@@ -11,6 +11,15 @@ struct TaskCell: View {
     
     @ObservedObject var task: Task
     
+    var taskColor: Color {
+        switch task.priority {
+        case .high:
+            return color.red
+        default:
+            <#code#>
+        }
+    }
+    
     var body: some View {
         HStack {
             Image(systemName: task.completed ? "checkmark.circle.fill" : "circle")
