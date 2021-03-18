@@ -14,9 +14,11 @@ struct TaskCell: View {
     var taskColor: Color {
         switch task.priority {
         case .high:
-            return color.red
-        default:
-            <#code#>
+            return Color.red
+        case .medium:
+            return Color.blue
+        case .low:
+            return Color.primary
         }
     }
     
@@ -30,6 +32,7 @@ struct TaskCell: View {
                     }
             Text(task.description)
                 }
+        .foregroundColor(self.taskColor)
     }
 }
 
